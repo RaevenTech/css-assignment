@@ -1,0 +1,44 @@
+body {
+  margin-left: 2rem;
+  background-color: green;
+  color: rgb(255, 255, 255);
+}
+
+h1 {
+  text-shadow: 2px 2px 5px black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img {
+  width: 250px;
+  box-shadow: 2px 5px 5px black;
+  border-radius: 5%;
+}
+
+a {
+  color: goldenrod;
+}
+
+ul {
+  margin-left: -20px;
+}
+
+.link {
+  margin-top: 20px;
+  font-size: 1.1rem;
+}
+
+#back-link {
+  color: rgb(22, 22, 22);
+}
+
+#back-btn {
+  background-color: goldenrod;
+  border: none;
+  padding: 4px 6px;
+  border-radius: 2px;
+}
+
+#back-btn:hover {
+  background-color: gold;
+}
