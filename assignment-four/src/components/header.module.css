@@ -1,7 +1,25 @@
 .body {
-  background-color: #1f2937;
+  box-sizing: border-box;
+  width: 70%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  background-color: #3d4755;
 }
 
-.h1 {
-  color: goldenrod;
+.header_logo {
+  color: #f9faf8;
+  font-weight: 24px;
+}
+
+.header_links_list {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-weight: 18px;
+}
+
+.header_link {
+  color: #e5e7eb;
+  text-decoration: none;
 }
