@@ -1,17 +1,38 @@
 .body {
+  font-family: ;
   background-color: #1f2937;
   height: 500px;
 }
 
 .main_container {
-  width: 70%;
+  width: 65%;
   margin: 0px auto;
 }
 
 .hero_img {
-  width: 550px;
+  width: 500px;
   height: 250px;
   float: right;
   object-fit: cover;
   ;
+}
+
+.hero_title {
+  font-weight: 900;
+  font-size: 48px;
+  margin-bottom: 0px;
+}
+
+.hero_txt {
+  font-size: 18px;
+  color: rgb(187, 78, 38);
+  margin: 0px 0px 10px 0px;
+}
+
+.hero_btn {
+  color: #f9faf8;
+  background-color: #3882f6;
+  padding: 6px 20px;
+  border-radius: 5px;
+  border: none;
 }

@@ -1,3 +1,32 @@
-.h1 {
-  color: black;
+.info_body {
+  text-align: center;
+}
+
+.info_h1 {
+  margin: 50px 0px;
+  color: #1f2937;
+  font-size: 36px;
+}
+
+.info_items {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.info_item {
+  width: 120px
+}
+
+.info_img {
+  width: 120px;
+  height: 120px;
+  border: 4px solid #3882f6;
+  border-radius: 10px;
+}
+
+.info_txt {
+  margin-top: 5px;
+  color: #5b6574;
+  font-size: 13px;
 }
