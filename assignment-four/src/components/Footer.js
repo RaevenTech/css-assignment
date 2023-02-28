@@ -3,7 +3,9 @@ import styles from "./footer.module.css"
 
 const Footer = () => {
   return (
-    <h1 className={styles.h1}>Footer</h1>
+    <div className={styles.footer_body}>
+      <p className={styles.footer_txt}> <span className={styles.copy_txt}> Copyright </span> ©️ </p>
+    </div>
   )
 }
 
